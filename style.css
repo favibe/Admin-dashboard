@@ -51,3 +51,70 @@ body {
 .nav  ul li a {
     text-decoration: none;
 }
+/* header */
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  background: white;
+  padding: 20px 30px;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e2e8f0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  font-weight: 500;
+}
+
+.user-info img {
+  border-radius: 50%;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcome img {
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  opacity: 0.9;
+}
